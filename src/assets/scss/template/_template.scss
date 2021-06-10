@@ -7,356 +7,109 @@ html,
 .body {
   background: #e0e1e7;
   background-color: #e0e1e7;
+  padding-top: 35px;
 }
-.columns {
-  padding-top: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 5px;
-  .logo_white {
-    width: 128px;
-  }
-  .user_icon {
-    width: 32px;
-  }
-  a {
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-  }
-  .icons {
-    width: 20px;
-    margin-right: 10px;
-    display: inline-block;
-    vertical-align: bottom;
-  }
-}
-.menu-divider {
-  display: block;
-  height: 20px;
-  width: 2px;
-  background-color: #ff690f;
-  background: #ff690f;
-}
-
 .container {
-  background: #f3f3f3;
+  th {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
 }
-
-// Full Width Headers
-.header {
-  background-color: #ff5e12;
-  background: #ff5e12;
+p {
+  font-size: 18px;
+  color: #3b424b;
+  line-height: 1.5;
+  margin-bottom: 25px;
 }
-
-.sub-header {
-  background-color: #d04c03;
-  background: #d04c03;
+a {
+  color: blue;
+  font-size: 18px;
+  text-decoration: underline;
 }
-
-th {
+li {
+  line-height: 2;
+}
+.not-display {
+  padding-top: 40px;
+  font-size: 12px;
   text-align: center;
+  margin-bottom: 60px;
+  color: #3b424b;
 }
-
-.deal_of_day {
-  background-color: #13191f;
-  background: #13191f;
-
-  .columns {
-    th {
-      padding-top: 30px;
-      padding-bottom: 20px;
-    }
+.cbs-logo {
+  margin-bottom: 86px;
+  margin-left: 20px;
+}
+.date {
+  color: #69717e;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.main-content {
+  text-align: center !important;
+  margin-left: 20px;
+}
+hr {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.sports-logo {
+  height: 32px;
+  width: 16px;
+  display: inline;
+}
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #004482;
+  padding-top: 0px;
+}
+.sub-header {
+  margin-bottom: 5px;
+}
+.lebron {
+  margin-bottom: 25px;
+}
+.dame {
+  margin-bottom: 25px;
+}
+.title-tiny {
+  font-size: 24px;
+}
+.cbs-sports-hq {
+  p {
+    font-size: 16px;
+    line-height: 1.3;
   }
-
-  h2 {
-    color: white;
-    font-weight: 900;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  img {
-    padding-bottom: 20px;
+}
+.small-text {
+  font-size: 10px;
+}
+.footer {
+  a {
+    color: #3b424b;
   }
   p {
-    padding-bottom: 20px;
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
+    margin-bottom: 5px;
   }
-  span {
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    display: block;
-    &.save_amount {
-      font-size: 14px;
-    }
-    &.tiny_info {
-      font-size: 10px;
-      font-weight: 300;
-      padding-bottom: 10px;
-    }
-    &.price {
-      font-size: 20px;
-      font-weight: 600;
-      padding-bottom: 10px;
-    }
-  }
-  .button {
-    display: inline-block;
-    width: 150px;
-    text-align: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border: 1px solid #fff;
-    border-radius: 5px;
+  .row {
+    margin-bottom: 1px;
   }
 }
-.content_area {
-  background: #f1f4f7;
-  background-color: #f1f4f7;
-  & > tbody > tr > th {
-    padding-top: 0;
-  }
-  .first-offer {
-    padding-top: 16px !important;
-  }
-  .offer {
-    background-color: white;
-    background: white;
-
-    .columns {
-      th {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-      }
-      & > table {
-        table-layout: fixed;
-        max-width: 568px;
-      }
-    }
-
-    h2 {
-      color: white;
-      font-weight: 900;
-      font-size: 30px;
-      text-align: center;
-      padding-bottom: 20px;
-    }
-    img {
-      padding-bottom: 20px;
-    }
-    p {
-      padding-bottom: 20px;
-      color: #334755;
-      font-weight: 600;
-      font-size: 16px;
-      text-align: center;
-    }
-    span {
-      color: white;
-      font-weight: 600;
-      font-size: 16px;
-      text-align: center;
-      display: block;
-      &.save_amount {
-        font-size: 14px;
-        color: #1a88f3;
-      }
-      &.tiny_info {
-        font-size: 10px;
-        font-weight: 700;
-        padding-bottom: 10px;
-        color: #334755;
-      }
-      &.price {
-        font-size: 20px;
-        font-weight: 600;
-        padding-bottom: 10px;
-        color: #334755;
-      }
-    }
-    .button {
-      background-color: #14151c;
-      background: #14151c;
-      display: inline-block;
-      width: 150px;
-      text-align: center;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      border: 1px solid #fff;
-      border-radius: 5px;
-    }
-    &.last-offer {
-      .columns {
-        text-align: center;
-        padding-bottom: 0;
-      }
-      .group-icons {
-        width: 190px;
-        margin: 0 auto;
-      }
-    }
-    h4 {
-      padding-bottom: 20px;
-      color: #334755;
-      font-weight: 600;
-      text-align: center;
-    }
-    p {
-      padding-bottom: 20px;
-      color: #334755;
-      font-weight: 600;
-      font-size: 16px;
-      text-align: center;
-    }
-    .last-offer-p {
-      font-weight: 300;
-      font-size: 16px;
-    }
-  }
+.title-logo {
+  height: 25px;
+  width: 25px;
+  display: inline;
+  margin-right: 5px;
 }
-.footer-top {
-  background-color: #222d37;
-  background: #222d37;
-  color: white;
-  & > tbody > tr > th {
-    padding-top: 30px !important;
-    padding-bottom: 25px !important;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
-  }
-  th {
-    padding-bottom: 0;
-    padding-top: 0px;
-  }
-  .call-to-action {
-    color: white;
-    text-align: left;
-    display: block;
-    font-size: 14px;
-  }
-  .info {
-    color: white;
-    text-align: left;
-    display: block;
-    font-size: 12px;
-  }
-  .download-section {
-    th {
-      text-align: left;
-    }
-  }
-  .store-logos {
-    img {
-      height: 40px;
-      display: block;
-      margin: 0 auto;
-      width: 120px;
-      padding-bottom: 5px;
-      padding-top: 5px;
-    }
-
-    & store-logos > table > tbody > tr > th > table > tbody > tr > th {
-      padding-bottom: 5px;
-    }
-  }
-
-  .foot-container {
-    background: black;
-    background-color: black;
-  }
+.social-icons {
+  height: 40px;
+  width: 40px;
 }
-.footer-social {
-  background-color: #14181c;
-  background: #14181c;
-  color: white;
-  & > tbody > tr > th {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  th {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .logo-section {
-    img {
-      width: 128px;
-    }
-  }
-  .social-icons {
-    img {
-      width: 32px;
-      height: 32px;
-      display: block;
-      margin: 0 auto;
-    }
-  }
+.line-footer {
+  margin-bottom: 30px;
+  margin-top: 1px;
 }
-.footer-sub-header {
-  background: #14181c;
-  background-color: #14181c;
-  border-bottom: 1px solid #2d3e4b;
-  border-top: 1px solid #2d3e4b;
-
-  .menu-divider {
-    display: block;
-    height: 20px;
-    width: 2px;
-    background-color: #2d3e4b;
-    background: #2d3e4b;
-  }
-}
-.footer-bottom {
-  background: #14181c;
-  background-color: #14181c;
-  & > tbody > tr > th {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
-  }
-  .lower-links {
-    .link {
-      font-size: 12px;
-      color: white;
-      margin-right: 10px;
-      &:nth-child(4) {
-        margin-right: 0;
-      }
-    }
-  }
-}
-.privacy {
-  th {
-    padding-bottom: 0px;
-  }
-  & > tbody > tr > th > table > tbody > tr > th {
-    padding-bottom: 30px;
-  }
-  p {
-    color: #7a7c7e;
-    font-size: 10px;
-  }
-}
-.copyright,
-.address {
-  th {
-    padding-bottom: 0;
-  }
-  .columns {
-    & > table > tbody > tr > th {
-      color: #d0d0d1;
-      font-size: 13px;
-      font-weight: 400;
-      padding-bottom: 0px;
-    }
-  }
+.follow-cbs {
+  margin-left: 35px;
 }
