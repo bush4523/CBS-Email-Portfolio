@@ -5,111 +5,80 @@
 body,
 html,
 .body {
-  background: #e0e1e7;
-  background-color: #e0e1e7;
+  background: #000000;
+  background-color: #000000;
   padding-top: 35px;
 }
 .container {
+  padding-left: 20px;
+  padding-right: 20px;
+
   th {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding: 0px !important;
   }
-}
-p {
-  font-size: 18px;
-  color: #3b424b;
-  line-height: 1.5;
-  margin-bottom: 25px;
-}
-a {
-  color: blue;
-  font-size: 18px;
-  text-decoration: underline;
-}
-li {
-  line-height: 2;
-}
-.not-display {
-  padding-top: 40px;
-  font-size: 12px;
-  text-align: center;
-  margin-bottom: 60px;
-  color: #3b424b;
-}
-.cbs-logo {
-  margin-bottom: 86px;
-  margin-left: 20px;
-}
-.date {
-  color: #69717e;
-  font-size: 16px;
-  margin-bottom: 30px;
-}
-.main-content {
-  text-align: center !important;
-  margin-left: 20px;
-}
-hr {
-  margin-bottom: 60px;
-  margin-top: 60px;
-}
-.sports-logo {
-  height: 32px;
-  width: 16px;
-  display: inline;
-}
-.title {
-  font-size: 32px;
-  font-weight: 600;
-  color: #004482;
-  padding-top: 0px;
-}
-.sub-header {
-  margin-bottom: 5px;
-}
-.lebron {
-  margin-bottom: 25px;
-}
-.dame {
-  margin-bottom: 25px;
-}
-.title-tiny {
-  font-size: 24px;
-}
-.cbs-sports-hq {
+  .main-content {
+    background-color: #e4e4e4;
+    background: #e4e4e4;
+    .columns {
+    }
+    p {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
   p {
-    font-size: 16px;
+    line-height: 2;
+  }
+  .help-info {
+    margin-bottom: 28px;
+  }
+  .transaction-info {
     line-height: 1.3;
   }
-}
-.small-text {
-  font-size: 10px;
-}
-.footer {
-  a {
-    color: #3b424b;
+  .footer {
+    background-color: #000000;
+    background: #000000;
+    .teen {
+      margin-top: 60px;
+    }
+    .riot {
+      margin-top: 82px;
+    }
   }
-  p {
-    margin-bottom: 5px;
+  .footer-privacy {
+    background: color #000000;
+    background: #000000;
+    p {
+      color: #9d9d9d;
+    }
+    hr {
+      background-color: #000000;
+      background: #000000;
+    }
   }
-  .row {
-    margin-bottom: 1px;
+  .top-line {
+    margin-top: 43px;
   }
-}
-.title-logo {
-  height: 25px;
-  width: 25px;
-  display: inline;
-  margin-right: 5px;
-}
-.social-icons {
-  height: 40px;
-  width: 40px;
-}
-.line-footer {
-  margin-bottom: 30px;
-  margin-top: 1px;
-}
-.follow-cbs {
-  margin-left: 35px;
+  .footer-social {
+    background: color #000000;
+    background: #000000;
+    p {
+      color: #9d9d9d;
+    }
+    .social-icons {
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      margin-bottom: 43px;
+      margin-top: 43px;
+    }
+  }
+  .footer-bottom {
+    background: color #000000;
+    background: #000000;
+    p {
+      color: #9d9d9d;
+      font-size: 12px;
+    }
+  }
 }
